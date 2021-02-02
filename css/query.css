@@ -1,0 +1,34 @@
+div#result_container
+{
+	background-color: white;
+	margin: 0 auto;
+	text-align: left;
+	padding: 10px;
+	width: 90%;
+}
+
+table, td, th
+{
+	border: 1px solid black;
+}
+
+table
+{
+	border-collapse: collapse;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+td, th
+{
+	text-align: left;
+	vertical-align: top;
+	padding: 5px;
+}
+
+th
+{
+	background-color: lightgray;
+}
+

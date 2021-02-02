@@ -1,0 +1,151 @@
+/* Meine erste css Datei */
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	margin: 16px 20px;
+}
+
+h1
+{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-decoration: underline;
+}
+
+h2
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h3
+{
+	margin-left: 10px;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+ul
+{
+	font-size 90%;
+	list-style-type: disc;
+	margin-left: 10px;
+}
+
+li
+{
+	padding: 2px 5px 2px 4px;
+}
+
+ul ul /*liste mit untergeordneter liste*/
+{
+	list-style-type: square;
+	margin-left: -20px;
+}
+
+ol
+{
+	list-style-type: upper-roman;
+}
+
+table, td, th
+{
+	border: 1px solid black;
+}
+
+table
+{
+	border-collapse: collapse;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+td, th
+{
+	text-align: left;
+	vertical-align: top;
+	padding: 5px;
+}
+
+th
+{
+	background-color: lightgray;
+}
+
+p.mitRand
+{
+	margin-left: 1.5em; 
+}
+
+label
+{
+	display: inline-block;
+	width: 8em;
+	text-align: right;
+	padding-right: 10px;
+	font-weight: bold;
+}
+
+label.radio
+{
+	text-align: left;
+	padding-left: 5px;
+	width: 4.5em;
+}
+
+p.ergebnis
+{
+	margin-left:  1.5em;
+	font-weight: bold;
+	font-size: 200%
+}
+
+.radio label
+{
+	width: 4em;
+	text-alig: left;
+	padding-left: 5px;
+}
+
+div.radio
+{
+	text-align: center;
+}
+
+form.mitRahmen
+{
+	width: 50%;
+	border: solid 1px darkblue;
+	padding: 10px;
+}
+
+input[type=radio]:checked+label
+{
+	color: red;
+}
+
+select
+{
+	color: blue;
+	margin: 1px 0;
+	padding: 1px 0 0;
+	width: 200px;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #c3c3c3;
+	border-right: 1px solid #c3c3c3;
+	border-top: 1px solid #c7c7c7;
+}
+
+input[type=button]
+{
+	font-size: 80%;
+	font-weight: bold;
+	padding: 2px 5px;
+	background-color: lightblue;
+}
+
+.radiolabel{
+  font-size: 20px;
+}

@@ -1,0 +1,84 @@
+/* vim: ts=4 sw=4
+ * 
+ * CSS Selectoren:
+ *    * { ... }              universal (*, also für alles)
+ *    tag { ... }            für einen speziellen tag (z.B. <TD>)
+ *    tag.class { ... }      für einen speziellen tag in class     TD.xyz --> <TD class=xyz>
+ *    tag#id { ... }         für einen speziellen tag mit id       TD#abc --> <TD id=abc>
+ *    .class { ... }         für alle tags in class
+ *    #id { ... }            für alle tags mit id
+*/
+#kopfbereich{ 
+	position: absolute; 
+	left: 0;
+	right: 0;
+	width: auto;
+	height: 3.5em;
+	font-size: 250%;
+	overflow: hidden; /* or scroll/auto to enable */
+	background-color: #336699;
+	white-space: nowrap;
+	vertical-align: bottom;
+	margin: 5px; /* Ränder für innere DIVs (Abstand/Padding) */
+	color: white;
+	text-align:left;
+}
+
+#menuSpalte{
+	position: absolute;
+	top: 11.0em; /* Hoehe des Kopfbereichse! menuSpalte links darunter! */
+	left: 0; 
+	width: 11.0em; /* Breite der menuSpalte */
+	overflow: hidden; /* or scroll/auto to enable */
+	background-color: #336699;
+	vertical-align: top;
+	margin: 5px; /* Ränder für innere DIVs (Abstand/Padding) */
+}
+
+#inhalt {
+	position: absolute;
+	left: 130px; /* Breite der Menüspalte */
+	top: 11.0em; /* Hoehe Kopfbereich */
+	right: 0;
+	bottom: 0;
+	overflow: auto; 
+	margin:0 auto;
+	text-align:left;
+	margin: 5px; /* Ränder für innere DIVs (Abstand/Padding) */
+}
+
+A.menulink {
+    display: block;
+    width: 12em; /* Breite */
+    height: 1.5em; /* Breite */
+    text-align: left;
+    text-decoration: none;
+    font-family: Tahoma;
+    font-size: 12px;
+    color: #336699;
+    background-color: #EEEEEE;
+    border-style: outset;
+    border-width: 3px;
+    border-color: black;
+}
+
+A.menulink:hover {
+    border-style: inset;
+    border-width: 3px;
+    border-color: #008C00;
+    color: #008C00;
+    background-color: #B3FFF3;
+}
+
+#passtnicht{
+    text-align: center;
+}
+
+.radiolabel{
+  font-size: 13px;
+}
+
+input[type="text"]:disabled {
+  background: #dddddd;
+}
+
